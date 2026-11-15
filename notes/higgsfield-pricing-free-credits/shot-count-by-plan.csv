@@ -1,0 +1,7 @@
+plan,monthly_credits,price_usd,resolution,credits_per_5s_official,credits_per_8s_calc,shots_8s_calc_floor,shots_8s_exact,seedance_2_0_standard_available,basis_date,note
+Starter,200,15,720p,30,48,4,4.17,no (Fast·Mini only),2026-10-24,계산값; 표준 모델을 쓸 수 없어 실제로는 이 개수가 나오지 않음
+Starter,200,15,1080p,60,96,2,2.08,no (Fast·Mini only),2026-10-24,계산값; 위와 같음
+Plus,1000,49,720p,30,48,20,20.83,yes,2026-10-24,계산값
+Plus,1000,49,1080p,60,96,10,10.42,yes,2026-10-24,계산값
+Ultra,3000,129,720p,30,48,62,62.50,yes,2026-10-24,계산값; 저자 2026-09 결제 플랜
+Ultra,3000,129,1080p,60,96,31,31.25,yes,2026-10-24,계산값

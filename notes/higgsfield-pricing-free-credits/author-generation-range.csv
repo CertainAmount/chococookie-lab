@@ -1,0 +1,9 @@
+item,low,high,unit,source,note
+initial_shots,20,20,shots,저자 기억값,8초 단위 shot
+usable_first_pass,12,12,shots,저자 기억값,처음 20개 중 바로 쓴 수
+regenerations,25,35,times,저자 범위값,처음 20개 중 8개 + 연속 동작·대사 sync 수정분
+total_generations,45,55,times,계산(20 + 25~35),추정
+credits_if_all_720p,2160,2640,credits,계산(45~55 × 48),추정; 1080p 최종 컷 수를 몰라 해상도별로 나누지 않음
+ultra_start_balance,3000,3000,credits,공식 2026-10-24 + 저자 결제,
+ultra_end_balance,몇십,이백대,credits,저자 범위값,화면 기록 없음
+remaining_after_720p_estimate,360,840,credits,계산(3000 - 2640~2160),1080p 최종 컷 재생성에 쓰였다고 본 몫; 끝 잔액 범위와 겹치는지까지는 따지지 않음
