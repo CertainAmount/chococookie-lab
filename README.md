@@ -14,6 +14,7 @@
 
 <!-- notes:start -->
 - SQLD 따야 하나, 백엔드 면접관이 서류와 면접에서 본 경계 (발행 전) · [연구 노트](notes/sqld-worth-it-vs-practical-sql/) · 기준일 2026-11-15
+- 아이폰 보상판매 vs 중고폰 판매, 민팃 앱 60만 원 견적이 현장에서 40만 원대가 된 이유 (발행 전) · [연구 노트](notes/iphone-trade-in-vs-used-sale/) · 기준일 2026-11-15
 <!-- notes:end -->
 
 ## 라이선스
