@@ -1,0 +1,4 @@
+mac_ram_gb,docker_memory_cap_gb,remaining_gb,remaining_kind,cap_source
+8,3~4,4~5,계산(램-상한),필자 권장값(8GB Windows 노트북 경험에서 나온 판단; 8GB Mac 직접 사용 아님)
+16,6,10,계산(램-상한),필자 권장값
+32,8,24,계산(램-상한),필자 Mac 현재 Settings > Resources 값(2026-11-16)
