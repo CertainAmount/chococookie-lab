@@ -1,0 +1,6 @@
+--- inside
+uid=0(root) gid=0(root) groups=0(root),65534(nogroup)
+6.8.0-138-generic
+    PID COMMAND
+      1 sh
+      4 ps

@@ -1,0 +1,5 @@
+panel,condition,value_text,bar_end_minutes,segment,segment_value_text,source,basis
+setup,설치 문서 따라 하기,반나절~하루,(축 밖),,,저자 보고값,Docker 이전 위키 설치 문서 방식
+setup,compose 첫 up -d,20분 안쪽,20,image pull,8분쯤,저자 보고값,최근 합류자 2명; 클론·.env 복사·pull·첫 up -d 포함
+gradle_build,호스트에서 빌드,1분 안쪽,1,,,저자 보고값,M1 Mac 시절 Spring Boot 프로젝트
+gradle_build,컨테이너 안에서 빌드(소스·~/.gradle bind mount),3분 가까이,3,,,저자 보고값,M1 Mac 시절 같은 프로젝트; VirtioFS 이후 재측정 없음

@@ -1,0 +1,7 @@
+environment,item,value,source,basis_date
+EC2 서버,인스턴스,t3.small (메모리 2GB),저자 운영 서버,2022~
+EC2 서버,컨테이너,API 2 + nginx,저자 운영 서버,2022~
+Mac Docker Desktop,VM 할당 메모리,8GB,저자 설정,2026-11-16
+Mac Docker Desktop,VM 할당 CPU,6,저자 설정,2026-11-16
+Mac Docker Desktop,유휴 VM 프로세스 메모리(컨테이너 0개),1.5GB 안팎,저자 관찰(Activity Monitor com.apple.Virtualization.VirtualMachine),2026-11-16
+Mac,물리 메모리,32GB,저자 기기,2026-11-16

@@ -1,0 +1,2 @@
+/bin/bash: 줄 30: ./hello-arm64: 이진 파일을 실행할 수 없음: Exec 형식 오류
+exit=126

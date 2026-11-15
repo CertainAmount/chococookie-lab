@@ -1,0 +1,2 @@
+bash: line 1: ./hello-arm64: cannot execute binary file: Exec format error
+exit=126
