@@ -13,6 +13,7 @@
 ## 노트 목록 (최신순)
 
 <!-- notes:start -->
+- SQLD 따야 하나, 백엔드 면접관이 서류와 면접에서 본 경계 (발행 전) · [연구 노트](notes/sqld-worth-it-vs-practical-sql/) · 기준일 2026-11-15
 <!-- notes:end -->
 
 ## 라이선스

@@ -1,0 +1,30 @@
+                                            QUERY PLAN                                             
+---------------------------------------------------------------------------------------------------
+ Subquery Scan on t (actual time=75.695..122.458 rows=19999.00 loops=1)
+   Filter: (t.rn = 1)
+   ->  WindowAgg (actual time=75.693..121.228 rows=19999.00 loops=1)
+         Window: w1 AS (PARTITION BY o.customer_id ORDER BY o.ordered_at ROWS UNBOUNDED PRECEDING)
+         Run Condition: (row_number() OVER w1 <= 1)
+         Storage: Memory  Maximum Storage: 17kB
+         ->  Sort (actual time=75.685..103.266 rows=200000.00 loops=1)
+               Sort Key: o.customer_id, o.ordered_at DESC
+               Sort Method: external merge  Disk: 7448kB
+               ->  Seq Scan on orders o (actual time=0.010..17.762 rows=200000.00 loops=1)
+ Planning Time: 0.211 ms
+ Execution Time: 124.629 ms
+(12 rows)
+
+                                                     QUERY PLAN                                                     
+--------------------------------------------------------------------------------------------------------------------
+ Subquery Scan on t (actual time=0.042..105.474 rows=19999.00 loops=1)
+   Filter: (t.rn = 1)
+   ->  WindowAgg (actual time=0.041..104.197 rows=19999.00 loops=1)
+         Window: w1 AS (PARTITION BY o.customer_id ORDER BY o.ordered_at ROWS UNBOUNDED PRECEDING)
+         Run Condition: (row_number() OVER w1 <= 1)
+         Storage: Memory  Maximum Storage: 17kB
+         ->  Index Scan using orders_customer_recent on orders o (actual time=0.036..85.505 rows=200000.00 loops=1)
+               Index Searches: 1
+ Planning Time: 0.148 ms
+ Execution Time: 105.977 ms
+(10 rows)
+
