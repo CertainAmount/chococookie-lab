@@ -1,0 +1,9 @@
+item,value,source
+healthcheck.test,pg_isready -U app -d app,저자 compose.yaml
+healthcheck.interval,5s,저자 compose.yaml
+healthcheck.timeout,3s,저자 compose.yaml
+healthcheck.retries,10,저자 compose.yaml
+healthcheck.start_period,10s,저자 compose.yaml
+first_start_db_healthy,10초 안팎,저자 관찰(첫 기동)
+db.ports,127.0.0.1:5433:5432,저자 compose.yaml
+backend.SPRING_DATASOURCE_URL,jdbc:postgresql://db:5432/app,저자 compose.yaml

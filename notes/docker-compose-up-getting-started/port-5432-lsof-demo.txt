@@ -1,0 +1,5 @@
+$ lsof -nP -iTCP:5432 -sTCP:LISTEN
+COMMAND  PID      TYPE NODE NAME
+python3  2336117  IPv4 TCP  127.0.0.1:5432 (LISTEN)
+$ python3 -c "import socket; socket.socket().bind((\"127.0.0.1\", 5432))"
+OSError: [Errno 98] Address already in use
