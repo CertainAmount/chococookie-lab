@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "이 저장소의 표나 노트를 쓰실 때는 아래처럼 인용하고 해당 글 링크를 남겨 주세요."
+title: "chococookie-lab: 쵸코쿠키의 연습장 글 뒤의 데이터·근거·실측 기록"
+authors:
+  - name: "쵸코쿠키의 연습장"
+    website: "https://jjeongil.tistory.com/"
+type: dataset
+license: CC-BY-4.0
+repository-code: "https://github.com/CertainAmount/chococookie-lab"
+url: "https://jjeongil.tistory.com/"
+keywords: [Korea, IT, developer, measurement, open data]
