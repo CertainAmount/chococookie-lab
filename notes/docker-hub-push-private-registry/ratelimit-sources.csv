@@ -1,0 +1,9 @@
+source,item,limit_count,window_seconds,window_label,checked_date,url,note
+Docker usage 문서,비로그인 pull,100,21600,6시간,2026-11-16,https://docs.docker.com/docker-hub/usage/pulls/,IPv4 주소 또는 IPv6 /64 단위
+Docker usage 문서,Personal 로그인 pull,200,21600,6시간,2026-11-16,https://docs.docker.com/docker-hub/usage/pulls/,
+Docker usage 문서,Pro·Team·Business pull,,,무제한(공정 사용),2026-11-16,https://docs.docker.com/docker-hub/usage/pulls/,
+Docker usage 문서 헤더 예시,ratelimit-limit 예시,100,21600,6시간,2026-11-16,https://docs.docker.com/docker-hub/usage/pulls/,문서에 실린 예시 헤더 ratelimit-limit: 100;w=21600
+Docker pricing FAQ,비로그인 pull,10,3600,1시간,2026-11-16,https://www.docker.com/pricing/faq/,2025-04 도입하려다 시행하지 않은 시간당 안의 문구
+Docker pricing FAQ,로그인 pull,100,3600,1시간,2026-11-16,https://www.docker.com/pricing/faq/,같은 구 문구
+Docker 블로그,시간당 한도 시행 여부,,,미시행·기존 6시간 한도 유지,2026-11-16,https://www.docker.com/blog/revisiting-docker-hub-policies-prioritizing-developer-experience/,
+응답 헤더(저자 Linux PC),비로그인 pull,100,3600,1시간,2026-11-16 03:29 KST,https://registry-1.docker.io/v2/ratelimitpreview/test/manifests/latest,1회·1 IP 측정 ratelimit-limit: 100;w=3600

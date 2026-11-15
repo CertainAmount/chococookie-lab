@@ -1,0 +1,8 @@
+# 비로그인, ratelimitpreview/test:latest manifest HEAD
+# 측정: 2026-11-16 03:29 KST, Linux, curl + python3 (토큰 출력 없음)
+# docker-ratelimit-source 값(공인 IP)은 가림
+HTTP/2 200
+date: Sun, 15 Nov 2026 18:29:06 GMT
+docker-ratelimit-source: <masked>
+ratelimit-limit: 100;w=3600
+ratelimit-remaining: 100;w=3600
