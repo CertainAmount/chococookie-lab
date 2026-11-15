@@ -1,0 +1,11 @@
+$ grep -E "^(sudo|docker):" /etc/group
+sudo:x:27:dev
+docker:x:998:
+$ sudo usermod -G docker dev
+$ grep -E "^(sudo|docker):" /etc/group
+sudo:x:27:
+docker:x:998:dev
+$ sudo usermod -aG sudo dev
+$ grep -E "^(sudo|docker):" /etc/group
+sudo:x:27:dev
+docker:x:998:dev
