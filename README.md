@@ -13,6 +13,7 @@
 ## 노트 목록 (최신순)
 
 <!-- notes:start -->
+- [Dockerfile ARG vs ENV 차이, FROM 앞 ARG가 스테이지에서 빈 값이 되고 토큰이 docker history에 남은 기록](https://jjeongil.tistory.com/3046) · [연구 노트](notes/dockerfile-arg-vs-env/) · 기준일 2026-11-16
 - [Docker Hub push denied는 태그 앞 사용자명 누락, 무료 private 저장소는 1개까지](https://jjeongil.tistory.com/3035) · [연구 노트](notes/docker-hub-push-private-registry/) · 기준일 2026-11-16
 - [맥북 도커 설치, Mac Docker Desktop을 brew로 깔고 hello-world까지 7분, 그 뒤 막힌 에러 3개](https://jjeongil.tistory.com/3007) · [연구 노트](notes/docker-desktop-mac-install/) · 기준일 2026-11-16
 - [docker cp 명령어로 폴더를 두 번 복사하면 conf/conf가 생기는 원인 — 대상 디렉터리가 이미 있으면 폴더째 들어간다](https://jjeongil.tistory.com/3032) · [연구 노트](notes/docker-cp-copy-files/) · 기준일 2026-11-16

@@ -1,0 +1,5 @@
+수단,예,빌드 중(RUN·LABEL),이미지(history·메타데이터),컨테이너 실행(printenv),근거
+ARG,--build-arg / compose build.args,선언 뒤 보임,값 남음,없음,Docker Docs Build variables; 2026-11-16 Mac 더미 재현 history
+ENV,Dockerfile에 적은 값,선언 뒤 보임,값 남음,보임,Docker Docs Build variables; Dockerfile reference ENV
+실행 때 주입,-e / compose environment / env_file,안 보임,안 남음,보임,Docker Docs Compose environment; Compose build args
+secret mount,RUN --mount=type=secret,그 RUN 한 줄만,안 남음,없음,Docker Docs Build secrets; 2026-11-16 Mac 재현(--check 경고 0줄)

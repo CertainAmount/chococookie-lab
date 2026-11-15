@@ -1,0 +1,7 @@
+줄,풀린 값,출처
+ARG JDK_VERSION=21 (FROM 앞),-,설명용 구조
+FROM eclipse-temurin:${JDK_VERSION}-jdk AS build,21,설명용 구조(본문 예시 Dockerfile)
+FROM eclipse-temurin:${JDK_VERSION}-jre,21,설명용 구조(본문 예시 Dockerfile)
+LABEL jdk_before=${JDK_VERSION},"""""",2026-11-16 Mac 재현 이미지 config; UndefinedVar 경고(line 3)
+ARG JDK_VERSION (재선언),-,2026-11-16 Mac 재현 history 순서
+LABEL jdk_after=${JDK_VERSION},21,2026-11-16 Mac 재현 이미지 config
