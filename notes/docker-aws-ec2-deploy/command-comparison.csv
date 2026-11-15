@@ -1,0 +1,7 @@
+step,amazon_linux_2,amazon_linux_2023,ubuntu
+package_install,sudo amazon-linux-extras install docker (or sudo yum install docker),sudo dnf install -y docker,Docker apt repository then sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+start_and_enable,sudo service docker start ; sudo systemctl enable docker,sudo systemctl enable --now docker,installed packages start the daemon; sudo systemctl enable --now docker if needed
+docker_group,sudo usermod -a -G docker ec2-user,sudo usermod -aG docker ec2-user,sudo usermod -aG docker ubuntu
+compose,manual binary in /usr/local/lib/docker/cli-plugins,manual binary in /usr/local/lib/docker/cli-plugins (not included with dnf docker in the 2026-11 repro),docker-compose-plugin package from the Docker apt repository
+default_user,ec2-user,ec2-user,ubuntu
+support_status,end of support 2026-06-30,current,-

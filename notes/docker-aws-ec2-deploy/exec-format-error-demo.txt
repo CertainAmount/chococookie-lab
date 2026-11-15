@@ -1,0 +1,6 @@
+$ uname -m
+x86_64
+$ file app | cut -d, -f1-2
+app: ELF 64-bit LSB pie executable, ARM aarch64
+$ ./app
+bash: ./app: cannot execute binary file: Exec format error

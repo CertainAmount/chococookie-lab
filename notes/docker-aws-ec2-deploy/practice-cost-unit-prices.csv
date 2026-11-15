@@ -1,0 +1,5 @@
+item,region,unit,usd,checked,source
+t3.micro Linux on-demand,ap-northeast-2 (Seoul),per hour,0.0130,2026-11-14,https://aws.amazon.com/ec2/pricing/on-demand/
+t3.small Linux on-demand,ap-northeast-2 (Seoul),per hour,0.0260,2026-11-14,https://aws.amazon.com/ec2/pricing/on-demand/
+public IPv4 address (in-use or idle Elastic IP),all regions,per hour,0.005,2026-11-15,https://aws.amazon.com/blogs/aws/new-aws-public-ipv4-address-charge-public-ip-insights/
+Lightsail container service Nano (0.25 vCPU / 512MB),-,per month,7,2026-11-15,https://aws.amazon.com/lightsail/pricing/

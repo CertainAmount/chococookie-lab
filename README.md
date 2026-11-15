@@ -20,6 +20,7 @@
 - 힉스필드 요금제·무료 크레딧, Seedance 2.0 영상은 어느 플랜부터인가 — Ultra 한 달 3,000크레딧 써 보니 (발행 전) · [연구 노트](notes/higgsfield-pricing-free-credits/) · 기준일 2026-11-15
 - [Docker 컨테이너 삭제·이미지 삭제: running·conflict 에러 푸는 순서와 prune 세 번으로 4.9GB 비운 기록](https://jjeongil.tistory.com/3026) · [연구 노트](notes/docker-container-remove-cleanup/) · 기준일 2026-11-15
 - [docker compose up -d 다음 ps -a부터: localhost·healthcheck·포트 충돌, 안 뜨는 원인 3가지](https://jjeongil.tistory.com/3063) · [연구 노트](notes/docker-compose-up-getting-started/) · 기준일 2026-11-15
+- [AWS Docker 배포, EC2 Amazon Linux 2023에서 막힌 docker.sock 권한·compose 없음·exec format error](https://jjeongil.tistory.com/3079) · [연구 노트](notes/docker-aws-ec2-deploy/) · 기준일 2026-11-15
 <!-- notes:end -->
 
 ## 라이선스
