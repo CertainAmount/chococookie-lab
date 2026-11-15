@@ -1,0 +1,4 @@
+date,stage,ls_klsh_allocated,ls_klsh_apparent
+2026-11-15,정리 전,11G,64G
+2026-11-15,prune 세 번 직후,11G,64G
+2026-11-15,Docker Desktop 재시작 뒤,8.2G,64G

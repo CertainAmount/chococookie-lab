@@ -1,0 +1,10 @@
+date,stage,type,total_count,active_count,size_gb,reclaimable_gb
+2026-10-11,측정,Images,7,3,3.41,
+2026-10-11,측정,Build Cache,,,2.87,
+2026-10-11,측정,Volumes,,,1.02,
+2026-11-15,정리 전,Images,9,4,4.12,2.61
+2026-11-15,정리 전,Build Cache,71,,3.38,3.38
+2026-11-15,정리 전,Volumes,,,1.09,
+2026-11-15,docker builder prune 직후,Build Cache,,,1.07,
+2026-11-15,docker image prune 직후,Images,,,3.71,
+2026-11-15,docker image prune -a 직후,Images,4,,1.52,

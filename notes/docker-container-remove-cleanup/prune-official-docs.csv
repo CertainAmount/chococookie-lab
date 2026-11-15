@@ -1,0 +1,15 @@
+item,official_behavior,source_url,checked
+docker container rm -f,실행 중 컨테이너를 SIGKILL로 끝내고 지운다,https://docs.docker.com/reference/cli/docker/container/rm/,2026-11-15 이전 조사에서 원문 확인
+docker rm (실행 중) 에러 형식,container is <상태>: stop the container before removing or force remove,https://github.com/moby/moby/blob/master/daemon/delete.go,2026-11-15 소스 확인(master)
+docker rmi 이미지:태그 (멈춘 컨테이너 참조),conflict: unable to remove repository reference "<태그>" (must force) - container <ID> is using its referenced image <ID>,https://github.com/moby/moby/blob/master/daemon/images/image_delete.go,2026-11-15 소스 확인(master)
+docker rmi 이미지ID (멈춘 컨테이너 참조),conflict: unable to delete <ID> (must be forced) - image is being used by stopped container <ID>,https://github.com/moby/moby/blob/master/daemon/images/image_delete.go,2026-11-15 소스 확인(master)
+docker rmi -f (멈춘 컨테이너만 참조),soft conflict로 분류되어 태그를 떼고 이미지까지 지운다,https://github.com/moby/moby/blob/master/daemon/images/image_delete.go,2026-11-15 소스 확인(master). 공식 image rm 문서는 실행 중 컨테이너만 언급
+docker rmi -f (실행 중 컨테이너 참조),hard conflict. 태그로 지우면 태그만 떨어지고 ID로 지우면 (cannot be forced) 에러,https://github.com/moby/moby/blob/master/daemon/images/image_delete.go,2026-11-15 소스 확인(master)
+docker image rm (태그 여러 개),태그를 인자로 주면 그 태그만 지운다. 모든 태그를 지워야 이미지가 지워진다,https://docs.docker.com/reference/cli/docker/image/rm/,2026-11-15 원문 확인
+docker image prune,기본은 dangling 이미지만. -a면 어떤 컨테이너도 참조하지 않는 이미지 전부,https://docs.docker.com/reference/cli/docker/image/prune/,2026-11-15 원문 확인
+docker builder prune,-a 설명이 "not just dangling ones" → 기본은 dangling 빌드 캐시,https://docs.docker.com/reference/cli/docker/builder/prune/,2026-11-15 원문 확인
+docker system prune,기본 삭제 대상에 볼륨 없음. --volumes면 익명 볼륨,https://docs.docker.com/reference/cli/docker/system/prune/,2026-11-15 이전 조사에서 원문 확인
+docker volume prune,기본은 안 쓰는 익명 볼륨만. -a(API 1.42 = Engine 23.0부터)면 이름 붙은 볼륨까지. 이전 버전은 이름과 무관하게 삭제,https://docs.docker.com/reference/cli/docker/volume/prune/,2026-11-15 이전 조사에서 원문 확인
+docker compose down -v,Compose 파일 volumes에 선언한 이름 붙은 볼륨과 컨테이너의 익명 볼륨을 지운다. external 볼륨은 지우지 않는다,https://docs.docker.com/reference/cli/docker/compose/down/,2026-11-15 원문 확인
+Docker Desktop for Mac Docker.raw,지운 공간을 몇 초 안에 호스트에 돌려준다. 실제 크기는 ls -klsh로 본다. Finder 등은 최대 크기를 보여 줄 수 있다,https://docs.docker.com/desktop/troubleshoot-and-support/faqs/macfaqs/,2026-11-15 이전 조사에서 원문 확인
+json-file 로그 드라이버,max-size·max-file로 로그 상한. daemon.json 변경은 새로 만든 컨테이너부터,https://docs.docker.com/engine/logging/drivers/json-file/,공식 문서 기준(이번에 재조회하지 않음)

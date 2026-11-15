@@ -18,6 +18,7 @@
 - 리눅스마스터 2급 vs 실무 리눅스 명령, 블로그 검색어 4,419클릭을 출제기준에 대 보니 (발행 전) · [연구 노트](notes/linux-master-level2-vs-practical-commands/) · 기준일 2026-11-15
 - 아이폰 보상판매 vs 중고폰 판매, 민팃 앱 60만 원 견적이 현장에서 40만 원대가 된 이유 (발행 전) · [연구 노트](notes/iphone-trade-in-vs-used-sale/) · 기준일 2026-11-15
 - 힉스필드 요금제·무료 크레딧, Seedance 2.0 영상은 어느 플랜부터인가 — Ultra 한 달 3,000크레딧 써 보니 (발행 전) · [연구 노트](notes/higgsfield-pricing-free-credits/) · 기준일 2026-11-15
+- [Docker 컨테이너 삭제·이미지 삭제: running·conflict 에러 푸는 순서와 prune 세 번으로 4.9GB 비운 기록](https://jjeongil.tistory.com/3026) · [연구 노트](notes/docker-container-remove-cleanup/) · 기준일 2026-11-15
 <!-- notes:end -->
 
 ## 라이선스

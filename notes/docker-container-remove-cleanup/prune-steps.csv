@@ -1,0 +1,6 @@
+date,order,command,reclaimed_gb,note
+2026-11-15,1,docker builder prune,2.31,Total reclaimed space 출력값. -a 없이 실행
+2026-11-15,2,docker image prune,0.41,태그 없는(dangling) 이미지만
+2026-11-15,3,docker image prune -a,2.19,컨테이너가 쓰지 않는 이미지 전부
+2026-11-15,합계(계산),,4.91,2.31+0.41+2.19
+2026-11-15,이미지 회수 대조(계산),,2.60,0.41+2.19 / 정리 전 Images 회수 가능 2.61

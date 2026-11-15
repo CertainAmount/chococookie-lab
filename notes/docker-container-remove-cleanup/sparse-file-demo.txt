@@ -1,0 +1,6 @@
+$ truncate -s 64G disk.raw && ls -lsh disk.raw   # 앞: 실제 차지, 뒤: 겉보기
+0 64G disk.raw
+$ dd if=/dev/urandom of=disk.raw bs=1M count=200 conv=notrunc && ls -lsh disk.raw
+200M 64G disk.raw
+$ fallocate --punch-hole --keep-size --offset 0 --length 100M disk.raw && ls -lsh disk.raw
+100M 64G disk.raw
