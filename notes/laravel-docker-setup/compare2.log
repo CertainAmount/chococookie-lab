@@ -1,0 +1,6 @@
+$ curl -s -o composer-13.x.json https://raw.githubusercontent.com/laravel/laravel/13.x/composer.json
+$ python3 fields.py composer-13.x.json
+php: ^8.3 | framework: ^13.17 | sail: None
+$ curl -s -o composer-12.x.json https://raw.githubusercontent.com/laravel/laravel/12.x/composer.json
+$ python3 fields.py composer-12.x.json
+php: ^8.2 | framework: ^12.0 | sail: ^1.41

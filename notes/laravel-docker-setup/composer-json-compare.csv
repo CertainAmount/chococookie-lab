@@ -1,0 +1,3 @@
+branch,commit_sha_12,commit_date_utc,php,laravel_framework,require_dev_laravel_sail
+13.x,a255d7688770,2026-11-13T15:31:28Z,^8.3,^13.17,
+12.x,e90c74ca717e,2026-05-05T20:39:40Z,^8.2,^12.0,^1.41

@@ -13,6 +13,7 @@
 ## 노트 목록 (최신순)
 
 <!-- notes:start -->
+- [Laravel Docker 설정: 첫날은 Sail, 운영과 같은 구조는 nginx+php-fpm 직접 compose](https://jjeongil.tistory.com/3072) · [연구 노트](notes/laravel-docker-setup/) · 기준일 2026-11-16
 - [Dockerfile ARG vs ENV 차이, FROM 앞 ARG가 스테이지에서 빈 값이 되고 토큰이 docker history에 남은 기록](https://jjeongil.tistory.com/3046) · [연구 노트](notes/dockerfile-arg-vs-env/) · 기준일 2026-11-16
 - [Node 설치 없이 도커로 npm 실행 설정 — 유틸리티 컨테이너 한 줄과 root 소유·/.npm EACCES 해결](https://jjeongil.tistory.com/3068) · [연구 노트](notes/docker-node-utility-container/) · 기준일 2026-11-16
 - [Docker 로드맵: DB 하나를 compose로 → 앱까지 붙은 compose → Dockerfile → push, Kubernetes는 서버 두 대가 필요해질 때](https://jjeongil.tistory.com/3182) · [연구 노트](notes/docker-learning-roadmap/) · 기준일 2026-11-16
