@@ -1,0 +1,8 @@
+stage,measurement,value,unit,qualifier,environment,source_article,note
+설치,Docker Desktop 설치부터 hello-world까지,7,분,쯤,Mac Docker Desktop,https://jjeongil.tistory.com/3007,단계마다 따로 잰 값(이어서 잰 시간 아님)
+compose,첫 docker compose up(첫 기동까지),20,분,안쪽,Mac Docker Desktop,https://jjeongil.tistory.com/3034,이미지 pull 포함
+compose,첫 docker compose up 중 이미지 pull,8,분,쯤,Mac Docker Desktop,https://jjeongil.tistory.com/3034,
+Dockerfile,연습용 이미지 첫 빌드,7.8,초,,Mac Docker Desktop,https://jjeongil.tistory.com/3554,
+Dockerfile,소스만 고친 캐시 재빌드,1.4,초,,Mac Docker Desktop,https://jjeongil.tistory.com/3554,
+push,Docker Hub 첫 push,50,초,안팎,Mac Docker Desktop,https://jjeongil.tistory.com/3035,
+push,같은 이미지 재push,5,초,안쪽,Mac Docker Desktop,https://jjeongil.tistory.com/3035,이미 올라간 레이어는 다시 보내지 않음

@@ -1,0 +1,5 @@
+item,monthly_usd,qualifier,source,note
+RDS,15,안팎,저자 실측,사이드 서버 DB
+EC2 t3.small 1대,19,쯤,저자 실측,compose로 API 둘과 nginx
+사이드 서버 합계,34,안팎,계산(15+19),스토리지·백업·퍼블릭 IPv4·전송 제외
+EKS 컨트롤 플레인,73,쯤,계산(0.10 USD/시간 × 730시간),AWS 공식 요금 2026-11 기준 · 표준 버전 지원 · 워커 노드 비용 별도
