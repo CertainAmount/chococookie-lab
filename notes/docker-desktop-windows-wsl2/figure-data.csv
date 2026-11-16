@@ -1,0 +1,5 @@
+figure,item,value_gb,basis
+figure-3,windows_total_ram,32,저자 PC 램 용량
+figure-3,wsl_memory_default_cap,16,계산: 32GB x 50% (Microsoft WSL 설정 문서 memory 기본값 2026-11-16 확인)
+figure-3,wsl_memory_author_cap,22,저자 %UserProfile%\.wslconfig memory=22GB
+figure-3,wsl_swap_author,8,저자 .wslconfig swap=8GB (그림에는 미표시)

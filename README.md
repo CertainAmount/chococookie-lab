@@ -15,6 +15,7 @@
 <!-- notes:start -->
 - [Dockerfile ARG vs ENV 차이, FROM 앞 ARG가 스테이지에서 빈 값이 되고 토큰이 docker history에 남은 기록](https://jjeongil.tistory.com/3046) · [연구 노트](notes/dockerfile-arg-vs-env/) · 기준일 2026-11-16
 - [Docker Hub push denied는 태그 앞 사용자명 누락, 무료 private 저장소는 1개까지](https://jjeongil.tistory.com/3035) · [연구 노트](notes/docker-hub-push-private-registry/) · 기준일 2026-11-16
+- [Docker Desktop 윈도우 11 Home 설치: WSL2 백엔드로 쓰며 막힌 4곳](https://jjeongil.tistory.com/3008) · [연구 노트](notes/docker-desktop-windows-wsl2/) · 기준일 2026-11-16
 - [맥북 도커 설치, Mac Docker Desktop을 brew로 깔고 hello-world까지 7분, 그 뒤 막힌 에러 3개](https://jjeongil.tistory.com/3007) · [연구 노트](notes/docker-desktop-mac-install/) · 기준일 2026-11-16
 - [docker cp 명령어로 폴더를 두 번 복사하면 conf/conf가 생기는 원인 — 대상 디렉터리가 이미 있으면 폴더째 들어간다](https://jjeongil.tistory.com/3032) · [연구 노트](notes/docker-cp-copy-files/) · 기준일 2026-11-16
 - [도커 컨테이너 이름 already in use 에러, 개발 DB가 든 pg는 rm 대신 start로 살렸다](https://jjeongil.tistory.com/3033) · [연구 노트](notes/docker-container-name-conflict/) · 기준일 2026-11-16
