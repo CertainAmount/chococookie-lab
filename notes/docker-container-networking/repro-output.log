@@ -1,0 +1,19 @@
+$ ss -tlnp | grep :11434 || echo "11434 free"
+11434 free
+$ python3 -m http.server 11434 --bind 127.0.0.1 &
+$ ss -tlnp | grep :11434
+LISTEN 127.0.0.1:11434 0.0.0.0:*
+$ curl -sS -m 3 -o /dev/null -w "loopback %{http_code}\n" http://127.0.0.1:11434/
+loopback 200
+$ curl -sS -m 3 -o /dev/null -w "lan %{http_code}\n" http://<LAN IP>:11434/
+curl: (7) Failed to connect to <LAN IP> port 11434 after 0 ms: Couldn't connect to server
+lan 000
+$ python3 -m http.server 11434 --bind 0.0.0.0 &
+$ ss -tlnp | grep :11434
+LISTEN 0.0.0.0:11434 0.0.0.0:*
+$ curl -sS -m 3 -o /dev/null -w "lan %{http_code}\n" http://<LAN IP>:11434/
+lan 200
+$ getent hosts host.docker.internal; echo "getent exit=$?"
+getent exit=2
+$ curl -sS -m 3 http://host.docker.internal:11434/
+curl: (6) Could not resolve host: host.docker.internal

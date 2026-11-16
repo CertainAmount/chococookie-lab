@@ -19,6 +19,7 @@
 - [Docker Desktop 윈도우 11 Home 설치: WSL2 백엔드로 쓰며 막힌 4곳](https://jjeongil.tistory.com/3008) · [연구 노트](notes/docker-desktop-windows-wsl2/) · 기준일 2026-11-16
 - [맥북 도커 설치, Mac Docker Desktop을 brew로 깔고 hello-world까지 7분, 그 뒤 막힌 에러 3개](https://jjeongil.tistory.com/3007) · [연구 노트](notes/docker-desktop-mac-install/) · 기준일 2026-11-16
 - [docker cp 명령어로 폴더를 두 번 복사하면 conf/conf가 생기는 원인 — 대상 디렉터리가 이미 있으면 폴더째 들어간다](https://jjeongil.tistory.com/3032) · [연구 노트](notes/docker-cp-copy-files/) · 기준일 2026-11-16
+- [도커 컨테이너에서 호스트 localhost 접속 안 될 때, 에러 문구별 해결(host-gateway·0.0.0.0·ufw)](https://jjeongil.tistory.com/3050) · [연구 노트](notes/docker-container-networking/) · 기준일 2026-11-16
 - [도커 컨테이너 이름 already in use 에러, 개발 DB가 든 pg는 rm 대신 start로 살렸다](https://jjeongil.tistory.com/3033) · [연구 노트](notes/docker-container-name-conflict/) · 기준일 2026-11-16
 - [Docker 코드 수정 반영 안 될 때 원인 확인 순서, 컨테이너 이미지 ID 앞 12자리부터 본다](https://jjeongil.tistory.com/3022) · [연구 노트](notes/docker-build-cache-changes-not-applied/) · 기준일 2026-11-16
 - [Docker 장점, 2019년부터 써 보니 남은 셋: 셋업 반나절→20분·태그 하나로 롤백·서버 한 대에 API 둘](https://jjeongil.tistory.com/3034) · [연구 노트](notes/docker-advantages-vs-vm/) · 기준일 2026-11-16
