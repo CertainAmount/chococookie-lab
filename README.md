@@ -14,6 +14,7 @@
 
 <!-- notes:start -->
 - [Dockerfile ARG vs ENV 차이, FROM 앞 ARG가 스테이지에서 빈 값이 되고 토큰이 docker history에 남은 기록](https://jjeongil.tistory.com/3046) · [연구 노트](notes/dockerfile-arg-vs-env/) · 기준일 2026-11-16
+- [Node 설치 없이 도커로 npm 실행 설정 — 유틸리티 컨테이너 한 줄과 root 소유·/.npm EACCES 해결](https://jjeongil.tistory.com/3068) · [연구 노트](notes/docker-node-utility-container/) · 기준일 2026-11-16
 - [Docker 로드맵: DB 하나를 compose로 → 앱까지 붙은 compose → Dockerfile → push, Kubernetes는 서버 두 대가 필요해질 때](https://jjeongil.tistory.com/3182) · [연구 노트](notes/docker-learning-roadmap/) · 기준일 2026-11-16
 - [Docker Hub push denied는 태그 앞 사용자명 누락, 무료 private 저장소는 1개까지](https://jjeongil.tistory.com/3035) · [연구 노트](notes/docker-hub-push-private-registry/) · 기준일 2026-11-16
 - [Docker Desktop 윈도우 11 Home 설치: WSL2 백엔드로 쓰며 막힌 4곳](https://jjeongil.tistory.com/3008) · [연구 노트](notes/docker-desktop-windows-wsl2/) · 기준일 2026-11-16

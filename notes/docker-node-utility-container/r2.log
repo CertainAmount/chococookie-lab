@@ -1,0 +1,19 @@
+$ env HOME=/ npm install is-number
+npm error code EACCES
+npm error syscall mkdir
+npm error path /.npm
+npm error errno EACCES
+npm error
+npm error Your cache folder contains root-owned files, due to a bug in previous versions of npm which has since been addressed.
+npm error
+npm error To permanently fix this problem, please run:
+npm error   sudo chown -R 1000:1000 "/.npm"
+npm error Log files were not written due to an error writing to the directory: /.npm/_logs
+npm error You can rerun the command with `--loglevel=verbose` to see the logs in your terminal
+exit=1
+$ env HOME=/ npm_config_cache=/tmp/.npm-r2 npm install is-number
+
+added 1 package, and audited 2 packages in 600ms
+
+found 0 vulnerabilities
+exit=0

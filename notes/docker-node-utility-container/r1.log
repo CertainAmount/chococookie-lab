@@ -1,0 +1,6 @@
+$ env HOME=/ npm config get cache
+/.npm
+$ env HOME=/tmp npm config get cache
+/tmp/.npm
+$ env HOME=/ npm_config_cache=/tmp/.npm npm config get cache
+/tmp/.npm
