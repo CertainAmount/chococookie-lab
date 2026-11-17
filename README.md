@@ -13,6 +13,7 @@
 ## 노트 목록 (최신순)
 
 <!-- notes:start -->
+- 티스토리 vs 워드프레스, 10년째 운영하며 세 번 이전을 검토하고 남은 이유는 301을 못 거는 tistory.com 주소 (발행 전) · [연구 노트](notes/tistory-vs-wordpress-10-years-data/) · 기준일 2026-11-17
 - Freeze-Omni vs STT·LLM·TTS cascade 음성 대화 지연: 실사용 약 1.2초, 내 cascade는 2.0~3.5초 (발행 전) · [연구 노트](notes/freeze-omni-frozen-llm-speech-dialogue/) · 기준일 2026-11-17
 - [Laravel Docker 설정: 첫날은 Sail, 운영과 같은 구조는 nginx+php-fpm 직접 compose](https://jjeongil.tistory.com/3072) · [연구 노트](notes/laravel-docker-setup/) · 기준일 2026-11-16
 - [Dockerfile ARG vs ENV 차이, FROM 앞 ARG가 스테이지에서 빈 값이 되고 토큰이 docker history에 남은 기록](https://jjeongil.tistory.com/3046) · [연구 노트](notes/dockerfile-arg-vs-env/) · 기준일 2026-11-16
