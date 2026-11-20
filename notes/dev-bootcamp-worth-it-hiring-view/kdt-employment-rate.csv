@@ -1,0 +1,6 @@
+group,label,value_pct,kind,source,source_date
+overall,2022년 전체 평균,62.6,point,서울경제(고용노동부 자료 인용),2025-12-31
+overall,2024년 전체 평균,54.2,point,서울경제(고용노동부 자료 인용),2025-12-31
+overall,2022→2024 변화,-8.4,calculated_pp,계산(62.6-54.2),2025-12-31
+by_course,채용연계형·AI 과정 중 일부,80+,range_lower_bound,서울경제(고용노동부 자료 인용),2025-12-31
+by_course,일부 과정,10~20%대,range,서울경제(고용노동부 자료 인용),2025-12-31
