@@ -13,6 +13,8 @@
 ## 노트 목록 (최신순)
 
 <!-- notes:start -->
+- 정보처리기사 우대 공고, 개발 신입 36건 중 10건·필수는 0건 (발행 전) · [연구 노트](notes/info-processing-engineer-backend-job-postings/) · 기준일 2026-11-24
+- 개발 신입 공고 자격증 언급 수집 엔진 (고용24) (발행 전) · [연구 노트](notes/engine-job-postings/) · 기준일 2026-11-24
 - 개발 부트캠프(KDT) 선택 전에, 백엔드 면접관이 수료생 서류에서 구분하지 못한 것 (발행 전) · [연구 노트](notes/dev-bootcamp-worth-it-hiring-view/) · 기준일 2026-11-20
 - 모니터암 vs 모니터 받침대 선택, 30mm 상판인데 보강 프레임 5cm에 걸려 클램프가 안 물렸다 (발행 전) · [연구 노트](notes/monitor-arm-vs-stand-clamp-desk-choice/) · 기준일 2026-11-19
 - 티스토리 vs 워드프레스, 10년째 운영하며 세 번 이전을 검토하고 남은 이유는 301을 못 거는 tistory.com 주소 (발행 전) · [연구 노트](notes/tistory-vs-wordpress-10-years-data/) · 기준일 2026-11-17
